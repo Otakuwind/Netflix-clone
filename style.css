@@ -326,3 +326,16 @@ transition: 1s;
     padding: 0 20px;
   }
 }
+
+
+.service-img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .service-img {
+    width: 300px;
+    height: auto;
+  }
+}
