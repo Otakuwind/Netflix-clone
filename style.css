@@ -27,9 +27,42 @@ body{
 }
 
 .input {
- 
+ background-color: transparent;
   padding: 5px;
+  height: 40px;
+  border-color: 1px solid gray;
+  margin-right: 8px;
 }
+
+
+::placeholder {
+  color: rgb(211, 205, 205);
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+}
+
+.input:focus::placeholder {
+  position: absolute;
+  top: -4px;
+  left: 10px;
+  font-size: 12px;
+  color: rgb(221, 221, 221);
+  transition: all 0.3s ease;
+}
+
+
 
 
 
@@ -43,10 +76,8 @@ body{
     padding: 0 10px;
 }
 
-.btn{
-    background-color: red;
-    color: white;
-}
+
+
 .navbar-nav li a
 {
     color: #fff !important;
