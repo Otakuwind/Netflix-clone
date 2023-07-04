@@ -177,38 +177,7 @@ color: white;
     margin-top: 25px;
     text-transform: uppercase;
 }
-.title::before
-{
-    content: "";
-    background: #7b1798;
-    height: 5px;
-    width: 200px;
-    margin-left:auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(63px);
-}
-.title::after
-{
-    content: "";
-    background: #7b1798;
-    height: 10px;
-    width: 50px;
-    margin-left:auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(8px);
-    margin-bottom: 40px;
-}
-#services .btn-primary
-{
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-color:#a517ba;
-    color: #fff;
-}
+
 /*-----------------------------------about us section--------------------------------------------*/
 #about-us
 {
