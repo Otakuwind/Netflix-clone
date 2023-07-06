@@ -163,7 +163,10 @@ padding: 80px 0;
 background: black;
 color: white;
 }
-
+.service-img{
+    width: 30rem;
+    width: 50%;
+}
 hr{
     color: white;
 }
