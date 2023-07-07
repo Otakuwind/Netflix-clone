@@ -345,68 +345,20 @@ hr{
   padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     letter-spacing: 0!important;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.438);
 }
-
-
 
 .footer{
    background: black;
-    color: white;
+   color: rgba(255, 255, 255, 0.438);
     margin-top: 100px;
 }
-.footer-img
-{
-    width: 100%;
 
-}
 .footer ul{
   font-size: 18px;
-}
-.footer-box
-{
-    padding: 20px;
-}
-.footer-box img{
-    width: 60px;
-    margin-bottom: 20px;
-    height: 40px;
-    padding-left: 20px
-}
-.footer-box .fa-bars{
-    margin-right: 8px;
-    font-size: 25px;
-    height: 40px ;
-    width: 40px ;
-    text-align: center;
-    padding-top: 7px;
-    border-radius: 2px ;
-    background-image: linear-gradient(to right, #a51ba7,#5f1782);
-
+   color: rgba(255, 255, 255, 0.438);
 }
 
-.footer-box .form-control
-{
-    box-shadow: none !important;
-    border-radius: 0;
-    margin-top: 25px;
-    max-width: 250px;
-}
-.footer-box .btn-primary
-{
-    box-shadow: none !important;
-    border: none ;
-    border-radius: 0;
-    margin-top: 30px;
-    background-image: linear-gradient(to right, #a51ba7,#5f1782);
-
-}
-.copyright
-{
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    text-align: center;
-}
 
 
 
