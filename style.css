@@ -341,6 +341,15 @@ hr{
 
 
 /*------------------footer-----------------------*/
+.f-heading{
+  padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    letter-spacing: 0!important;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
 .footer{
    background: black;
     color: white;
@@ -351,7 +360,9 @@ hr{
     width: 100%;
 
 }
-
+.footer ul{
+  font-size: 18px;
+}
 .footer-box
 {
     padding: 20px;
