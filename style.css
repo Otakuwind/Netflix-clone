@@ -364,7 +364,7 @@ hr{
   border: solid rgba(255, 255, 255, 0.733);
  max-width: 120px;
  display: flex;
- border-radius: 10%;
+ border-radius: 8%;
  justify-content: space-between;
 margin-bottom: 30px;
 }
@@ -432,30 +432,6 @@ margin-bottom: 30px;
     color: white;
     text-decoration: none;
   }
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-
-
-
-
-
 
 @media (min-width: 768px) {
   .service-img {
