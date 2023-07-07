@@ -346,6 +346,7 @@ hr{
     padding-bottom: 0.75rem;
     letter-spacing: 0!important;
     color: rgba(255, 255, 255, 0.438);
+    margin-bottom: 20px;
 }
 
 .footer{
@@ -359,7 +360,14 @@ hr{
    color: rgba(255, 255, 255, 0.438);
 }
 
-
+.select-form{
+  border: solid rgba(255, 255, 255, 0.733);
+ max-width: 120px;
+ display: flex;
+ border-radius: 10%;
+ justify-content: space-between;
+margin-bottom: 30px;
+}
 
 
 /* CSS for larger screens */
@@ -424,6 +432,30 @@ hr{
     color: white;
     text-decoration: none;
   }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+
 
 @media (min-width: 768px) {
   .service-img {
