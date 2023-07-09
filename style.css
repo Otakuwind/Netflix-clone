@@ -641,3 +641,7 @@ transform: translateY(-2px);
     color: rgba(214, 212, 212, 0.548);
     text-decoration: none;
   }
+
+  .error{
+    color: white;
+  }
